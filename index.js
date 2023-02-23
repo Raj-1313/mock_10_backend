@@ -4,6 +4,7 @@ const connect= require('./config/config');
 const AuthRouter= require('./Routes/Auth_Route')
 const BookingRouter= require('./Routes/Booking_Route')
 const FilghtRouter= require('./Routes/Flight_Route')
+const cors= require('cors');
 const app = express()
 const PORT= process.env.PORT
 
